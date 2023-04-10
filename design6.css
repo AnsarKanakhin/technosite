@@ -1,0 +1,103 @@
+.header{
+    border:1px solid rgb(43, 43, 43);
+    height: 25vh;
+    width: 100%;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    background-color: rgb(43, 43, 43);
+}
+.logo_element{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:4em;
+}
+.button_element{
+    text-decoration:none;
+    padding:0.7em 2.2em;
+    display:block;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:lightgrey;
+    border-radius:10px;
+    color:white;
+}
+body{
+    background-color: lightgray;
+}
+.main{
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.copper-pass{
+    background-color: orangered;
+    width: 50vh;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.title{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.iron-pass{
+    background-color: lightslategray;
+    width: 50vh;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.gold-pass{
+    background-color: yellow;
+    width: 50vh;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.button{
+    text-decoration:none;
+    width: 20vh;
+    height: 10vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:lightgrey;
+    color:black;
+}
+@-moz-document url-prefix(){
+    @font-face {
+        font-family: 'Offside';
+        src: url(Offside-Regular.ttf);
+    }
+    .logo_element{
+        font-family:'Offside';
+    }
+    h1{
+        font-family:'Offside';
+    }
+    a{
+        font-family:'Offside';
+    }
+    .low_element{
+        font-family:'Offside';
+    }
+    .top_element{
+        font-family:'Offside';
+    }
+    .very_top_element{
+        font-family:'Offside';
+    }
+    .button_element{
+        font-family:'Offside';
+    }
+}

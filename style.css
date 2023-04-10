@@ -1,0 +1,159 @@
+html
+{
+    scroll-behavior: smooth;
+}
+.section-1
+{
+    display: flex;
+}
+.hello_image
+{
+    height: 100vh;
+    width: 50vw;
+}
+.hello_words_container
+{
+    height: 100vh;
+    width: 50vw;
+    background-color: black;
+}
+.hello_words
+{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+.main_container
+{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.descp
+{
+    font-size: 3em;
+    text-align: center;
+    color: white;
+    font-family: 'Offside';
+}
+.descp_container
+{
+    height: 50%;
+    width: 100%;
+}
+.site_descp
+{
+    font-size: 2.5em;
+    text-align: center;
+    color: white;
+    font-family: 'Offside';
+}
+.hello_button
+{
+    height: 50%;
+    width: 100%;
+}
+.button_container
+{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a
+{
+    color:black;
+    text-decoration: none;
+    padding:0.6em 1.8em;
+    background-color: white;
+    border-radius: 10px;
+    font-family: 'Offside';
+}
+
+.section-2
+{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content:start;
+}
+
+
+
+
+a:hover
+{
+    background-color: lightgrey;
+}
+.site_descp1{
+    font-size: 2.5em;
+    text-align: center;
+    color: white;
+    font-family: 'Offside';
+    position: relative;
+    bottom:-310px;
+}
+.section-3{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content:flex-end;
+}
+.site_descp2{
+    font-size: 2.5em;
+    text-align: center;
+    color: white;
+    font-family: 'Offside';
+    position: relative;
+    bottom:-200px;
+}
+@media screen and (max-width: 1000px) {
+    .firsts{
+        align-items: flex-end;
+    }
+    
+}
+
+@media screen and (max-width: 810px) {
+    .descp
+    {
+        font-size: 2.5em;
+    }
+    .site_descp{
+        font-size:2em;
+    }
+    .site_descp1{
+        font-size:2em;
+    }
+    .site_descp2{
+        font-size:2em;
+    } 
+}
+@media screen and (max-width: 460px) {
+    .site_descp{
+        font-size:1.5em;
+    }
+    .site_descp1{
+        font-size:1.5em;
+    }
+    .site_descp2{
+        font-size:1.5em;
+    }
+}
+@-moz-document url-prefix(){
+    .hello_words_container{
+        background-color: royalblue;
+    }
+    @font-face {
+        font-family: 'Offside';
+        src: url(Offside-Regular.ttf);
+    }
+    .hello_words{
+        font-family:'Offside';
+    }
+}
